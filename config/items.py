@@ -6,9 +6,12 @@
 # https://doc.scrapy.org/en/latest/topics/items.html
 
 import scrapy
+from config.itembase import MySQLItem
 
-
-class Item(scrapy.Item):
+class News(MySQLItem):
     # define the fields for your item here like:
-    name = scrapy.Field()
+    title = scrapy.Field()
+    url = scrapy.Field()
+    datetime = scrapy.Field()
+    origin = scrapy.Field()
     pass

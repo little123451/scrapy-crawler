@@ -2,7 +2,7 @@
 # coding:utf-8
 
 """
-对接的 PHP 接口代码: https://gitlab.com/datahunter/interface
+对接接口
 """
 import http
 import json
