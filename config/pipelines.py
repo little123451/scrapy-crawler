@@ -39,7 +39,7 @@ class MySQLPipeline(object):
 
     def open_spider(self, spider):
         # 打开数据库连接
-        self.db = pymysql.connect(host="", port=, user="", password="", database="" )
+        self.db = pymysql.connect(host="", port='', user="", password="", database="" )
         # 使用 cursor() 方法创建一个游标对象 cursor
         self.cursor = self.db.cursor()
 
